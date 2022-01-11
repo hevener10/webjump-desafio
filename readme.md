@@ -1,3 +1,19 @@
+############## COMO EXECUTA O SCRIPT DO DESAFIO
+### [Instalação]
+
+1. Faça o download dos arquivos.
+2. Extraia o pacote e copie para seu webserver.
+3. Rode o comando `composer install --no-dev` a partir da raiz do projeto.
+4. Restaure o banco de dados que esta no arquivo `database.sql`
+5. Configure as credenciais do banco no arquivo `app\Database\Database.php`
+
+######################## DOCUMENTAÇÂO
+Foi ultilizado o composer load para carregar a classes 
+Tambem foi ultilizado o PDO para gerencia o banco de dados pois com ele e facil realizar a troca do banco
+O PDOexeptin tambem para exibir erros amigaveis para o usuario, porem o ideal e tratar o erro exibir algo mais amigavel ao usuario e gravar no log o erro gerado.
+
+############# PROPOSTA DO DESAFIO ############################################
+
 # Você quer ser um desenvolvedor Backend na Web Jump?
 Criamos esse teste para avaliar seus conhecimentos e habilidades como desenvolvedor backend.
 
